@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/firstLanguage"
+        android:title="First language">
+
+        <menu>
+            <item
+                android:id="@+id/firstLang_kaz"
+                android:title="Kaz" />
+            <item
+                android:id="@+id/firstLang_rus"
+                android:title="Rus" />
+            <item
+                android:id="@+id/firstLang_eng"
+                android:title="Eng" />
+        </menu>
+
+    </item>
+
+    <item android:id="@+id/secondLanguage"
+        android:title="Second language">
+
+        <menu>
+            <item
+                android:id="@+id/secondLang_kaz"
+                android:title="Kaz" />
+            <item
+                android:id="@+id/secondLang_rus"
+                android:title="Rus" />
+            <item
+                android:id="@+id/secondLang_eng"
+                android:title="Eng" />
+        </menu>
+
+    </item>
+
+</menu>
